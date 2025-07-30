@@ -41,7 +41,37 @@ A modern, minimalist dream journal application that uses AI to provide symbolic 
 
 ## 📦 Installation
 
-1. **Clone the repository**  
+1. **Clone the repository**
    ```bash
    git clone https://github.com/ph03iA/Reverie-Diary.git
    cd Reverie-Diary
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Set up environment variables**
+   Create a `.env` file in the root directory:
+   ```env
+   REACT_APP_GEMINI_API_KEY=your_gemini_api_key_here
+   ```
+
+4. **Get your Google Gemini API key**
+   - Visit [Google AI Studio](https://makersuite.google.com/app/apikey)
+   - Create a new API key
+   - Add it to your `.env` file
+
+5. **Start the development server**
+   ```bash
+   npm start
+   ```
+
+6. **Open your browser**
+   Navigate to `http://localhost:3000`
+
+---
+
+⭐ **Star this repository if you find it helpful!**
+
